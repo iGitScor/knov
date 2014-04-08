@@ -1,0 +1,20 @@
+<div class="container-fluid front-panel">
+    <section id="front-panel-words" class="text-center">
+        <ul id="word-list" class="word-list">
+            <li knov-word ng-repeat="(id, word) in words" class="form-group pull-left category-block">
+            </li>
+        </ul>
+    </section>
+
+    <div class="clear"></div>
+
+    <section id="front-panel-footer">
+        <form id="word-form" ng-submit="addWord()">
+            <div class="form-group">
+                <input id="new-word" class="form-control pull-left three" placeholder="The word..." ng-model="newWord" autofocus>
+                <input id="new-word-definition" class="form-control pull-left nine" placeholder="... and the knowledge !" ng-model="newWordDefinition">
+                <input id="submit" value="submit" type="submit" class="pull-left form-control"/>
+            </div>
+        </form>
+    </section>
+</div>
