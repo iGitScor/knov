@@ -159,6 +159,11 @@ p .lead {
     bottom:10px;
     left: 40px;
     width: 200px;
+    height: 37px;
+    background-image: url('../images/black-board-marker.png');
+    background-size: 100%;
+    padding-left: 45px;
+    padding-top: 7px;
 }
 
 input[type=submit] {
