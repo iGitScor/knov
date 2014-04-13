@@ -49,6 +49,7 @@
     "jshint-stylish": "~0.1.5",
     "requirejs": "~2.1.10",
     "gulp-recess": "~0.2.0",
-    "gulp-bump": "~0.1.5"
+    "gulp-bump": "~0.1.5",
+    "gulp-gh-pages": "~0.1.4"
   }
 }

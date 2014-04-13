@@ -13,6 +13,7 @@ var jshint = require('gulp-jshint');
 var stylish = require('jshint-stylish');
 var recess = require('gulp-recess');
 var bump = require('gulp-bump');
+var deploy = require('gulp-gh-pages');
 
 var server = lr();
 var app = express();
@@ -118,6 +119,12 @@ gulp.task('bump', function() {
     gulp.src(['./bower.json', './package.json'])
         .pipe(bump({type: 'minor'}))
         .pipe(gulp.dest('./'));
+});
+
+// Deploys to GitHub Pages.
+gulp.task('deploy', function () {
+    gulp.src('build/**/*')
+        .pipe(deploy('git@github.com:iGitScor/knov.git', 'origin'));
 });
 
 // Default developer working task.

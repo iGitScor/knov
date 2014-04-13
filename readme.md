@@ -51,6 +51,8 @@ To get up and running behind a corporate proxy, you'll have to:
 
 Knov only contains static files, it can thus be deployed everywhere static files can be served (S3, EC2, Dropbox, GitHub Pages, Heroku, etc).
 
+### Testing
+
 The testing environment is currently hosted [on Firebase Hosting (beta)](https://scorching-fire-6383.firebaseapp.com/).
 
     # Install the Firebase Command Line Tools
@@ -59,11 +61,25 @@ The testing environment is currently hosted [on Firebase Hosting (beta)](https:/
     # Build the project
     gulp build
 
-    # Run the deploy command
+    # Run the firebase deploy command
     firebase deploy
 
     # Voilà, you can go to
     # https://scorching-fire-6383.firebaseapp.com/
+    # to access the running app.
+
+### Production
+
+    The production environment is hosted [on GitHub Pages](http://knov.trgdy.com/).
+
+    # Build the project
+    gulp build
+
+    # Run the deploy command
+    gulp deploy
+
+    # Voilà, you can go to
+    # http://knov.trgdy.com/
     # to access the running app.
 
 ## Credits
