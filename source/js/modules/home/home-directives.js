@@ -12,10 +12,13 @@ define([
                 var $link = $(element).find('a');
 
                 function update() {
+                // When the list is updated, adjust tooltip position
                     if ($link.offset().left < ($('body').width() / 2) ) {
                         $link.parent().addClass('hint--right');
+                        $link.parent().removeClass('hint--left');
                     } else {
                         $link.parent().addClass('hint--left');
+                        $link.parent().removeClass('hint--right');
                     }
                 }
 
