@@ -12,7 +12,17 @@ define([
                 var $link = $(element).find('a');
 
                 function update() {
-                // When the list is updated, adjust tooltip position
+                    if (($link.attr('data-definition') == '?') && $.inArray($link.attr('data-word'), scope.nbNewWords) == -1) {
+                        scope.nbNewWords.push($link.attr('data-word'));
+                    } else if (($link.attr('data-definition') != '?') && $.inArray($link.attr('data-word'), scope.nbNewWords) != -1) {
+                        var index = scope.nbNewWords.indexOf($link.attr('data-word'));
+
+                        if (index > -1) {
+                            scope.nbNewWords.splice(index, 1);
+                        }
+                    }
+                
+                    // When the list is updated, adjust tooltip position
                     if ($link.offset().left < ($('body').width() / 2) ) {
                         $link.parent().addClass('hint--right');
                         $link.parent().removeClass('hint--left');

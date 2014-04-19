@@ -10,6 +10,7 @@ define(['./module', 'jquery', './home-directives'], function(controllers, $) {
             $scope.newWord              = '';
             $scope.newWordDefinition    = '';
             $scope.nbWords              = 0;
+            $scope.nbNewWords           = new Array();
 
             $scope.$watch('words', function() {
                 $scope.nbWords = $scope.words.$getIndex().length;
