@@ -14,6 +14,18 @@ body {
     border-radius: 10px;
 }
 
+
+/********************************************************
+	Font face declaration
+********************************************************/
+
+@font-face {
+	font-family: 'knovScript';
+	src:url('../fonts/Script.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /********************************************************
 	Generic HTML Elements (p, a, li...)
 ********************************************************/
@@ -37,12 +49,6 @@ p .lead {
 
 .clear {
     clear: both;
-}
-
-@font-face 
-{
-	font-family: 'knovScript';
-	src: url('../fonts/Script.ttf');
 }
 
 .three {
@@ -80,10 +86,11 @@ p .lead {
 }
 
 #word-list li span .hint:after, #word-list li span[data-hint]:after {
-    white-space: normal !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
+    white-space: normal;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 200px;
+    line-height: 20px;
 }
 
 #word-list li:nth-child(3n+3) a {
@@ -132,6 +139,7 @@ p .lead {
     color: #333;
     line-height: 63px;
     font-size: 2em;
+    cursor: default;
 }
 
 #header #vLogo {
@@ -146,6 +154,10 @@ p .lead {
     margin-left: -30px;
     margin-top: 36px;
     margin-right: -17px;
+}
+
+#header p {
+    cursor: default;
 }
 
 #header blockquote {
@@ -173,6 +185,7 @@ p .lead {
     background-size: 100%;
     padding-left: 50px;
     padding-top: 8px;
+    cursor: default;
 }
 
 input[type=submit] {

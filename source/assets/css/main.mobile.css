@@ -1,0 +1,31 @@
+body {
+    height: auto;
+}
+
+.category-block {
+    clear: both;
+}
+
+#marker {
+    display: none;
+}
+
+#front-panel-footer {
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    width: 90%;
+}
+
+#word-list {
+    margin-top: 120px;
+}
+
+#word-list li a {
+    font-size: 25px;
+}
+
+#word-list li span .hint:after, #word-list li span[data-hint]:after {
+    font-size: 16px;
+    line-height: 18px;
+}
