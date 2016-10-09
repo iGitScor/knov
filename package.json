@@ -7,6 +7,18 @@
     "type": "git",
     "url": "git://github.com/iGitScor/knov"
   },
+  "scripts": {
+      "gulp": "gulp",
+      "work": "gulp work",
+      "open": "gulp open",
+      "serve": "gulp serve",
+      "build": "gulp build",
+      "watch": "gulp watch",
+      "bump": "gulp bump",
+      "lint": "gulp lint",
+      "deploy": "gulp deploy",
+      "compile": "gulp compile"
+  },
   "keywords": [
     "culture",
     "share",
