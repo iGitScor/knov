@@ -86,5 +86,3 @@ The testing environment is currently hosted [on Firebase Hosting (beta)](https:/
 ## Credits
 
 Copyright (c) 2016 [FlipFlop Crew](https://github.com/FlipFlopWeekly)
-
-
