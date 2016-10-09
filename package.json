@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git://github.com/iGitScor/knov"
   },
+  "scripts": {
+      "gulp": "gulp"
+  },
   "keywords": [
     "culture",
     "share",
