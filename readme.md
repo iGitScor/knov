@@ -1,22 +1,23 @@
 Knov
 ====
 
-A real-time culture sharer using Firebase as its backend and AngularJS on the frontend.
+A real-time culture sharer using Firebase as its backend and AngularJS on the front-end.
 
 ## Installation
     
     # Install global NPM dependencies:
-    npm install -g gulp bower jshint recess
+    `npm install -g gulp bower jshint recess`
 
     # Install project NPM dependencies:
-    npm install
+    `npm install`
 
 ## Contributing
     
     # You may want to install the development
     # dependencies (above) to make your life easier.
     # Once it is done, just run:
-    gulp work
+    
+    `gulp work`
 
 This command will:
 
@@ -27,8 +28,8 @@ This command will:
 Another option if you don't want to bother installing node & npm:
      
     # Just use a simple static file server like:
-    cd source/
-    python -m SimpleHTTPServer 4000
+    `cd source/`
+    `python -m SimpleHTTPServer 4000`
     # Then go to http://localhost:4000/
 
 ## Troubleshooting
@@ -56,13 +57,13 @@ Knov only contains static files, it can thus be deployed everywhere static files
 The testing environment is currently hosted [on Firebase Hosting (beta)](https://scorching-fire-6383.firebaseapp.com/).
 
     # Install the Firebase Command Line Tools
-    npm install -g firebase-tools
+    `npm install -g firebase-tools`
 
     # Build the project
-    gulp build
+    `gulp build`
 
     # Run the firebase deploy command
-    firebase deploy
+    `firebase deploy`
 
     # Voilà, you can go to
     # https://scorching-fire-6383.firebaseapp.com/
@@ -73,10 +74,10 @@ The testing environment is currently hosted [on Firebase Hosting (beta)](https:/
     The production environment is hosted [on GitHub Pages](http://knov.trgdy.com/).
 
     # Build the project
-    gulp build
+    `gulp build`
 
     # Run the deploy command
-    gulp deploy
+    `gulp deploy`
 
     # Voilà, you can go to
     # http://knov.trgdy.com/
@@ -84,4 +85,4 @@ The testing environment is currently hosted [on Firebase Hosting (beta)](https:/
 
 ## Credits
 
-Copyright (c) 2014 [FlipFlop Crew](https://github.com/FlipFlopWeekly)
+Copyright (c) 2016 [FlipFlop Crew](https://github.com/FlipFlopWeekly)
