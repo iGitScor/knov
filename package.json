@@ -8,16 +8,16 @@
     "url": "git://github.com/iGitScor/knov"
   },
   "scripts": {
-      "gulp": "gulp",
-      "work": "gulp work",
-      "open": "gulp open",
-      "serve": "gulp serve",
-      "build": "gulp build",
-      "watch": "gulp watch",
-      "bump": "gulp bump",
-      "lint": "gulp lint",
-      "deploy": "gulp deploy",
-      "compile": "gulp compile"
+    "gulp": "gulp",
+    "work": "gulp work",
+    "open": "gulp open",
+    "serve": "gulp serve",
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "bump": "gulp bump",
+    "lint": "gulp lint",
+    "deploy": "gulp deploy",
+    "compile": "gulp compile"
   },
   "keywords": [
     "culture",
@@ -59,9 +59,11 @@
     "gulp-recess": "^1.2.0",
     "gulp-replace": "^0.5.4",
     "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3",
     "jshint-stylish": "^2.2.1",
     "open": "0.0.5",
     "requirejs": "^2.3.2",
     "tiny-lr": "^0.2.1"
-  }
+  },
+  "dependencies": {}
 }
