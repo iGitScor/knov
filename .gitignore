@@ -1,10 +1,6 @@
-.idea
-.sass-cache
-nginx.conf
-errors.log
+# Node.js ignore files
+/node_modules
+
+# Application ignore files
 /build
-/coverage
-node_modules
-test-results-*.xml
-/selenium
-/nbproject
+/source/vendor
