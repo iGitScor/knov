@@ -3,8 +3,11 @@ Knov
 
 A real-time culture sharer using Firebase as its backend and AngularJS on the frontend.
 
+[![npm](https://img.shields.io/npm/v/npm.svg)]()
+[![node](https://img.shields.io/node/v/gh-badges.svg)]()
+
 ## Installation
-    
+
     # Install global NPM dependencies:
     npm install -g gulp bower jshint recess yarn
 
@@ -12,7 +15,7 @@ A real-time culture sharer using Firebase as its backend and AngularJS on the fr
     yarn install
 
 ## Contributing
-    
+
     # You may want to install the development
     # dependencies (above) to make your life easier.
     # Once it is done, just run:
@@ -25,7 +28,7 @@ This command will:
 - Watch for file modification and automatically compile / refresh your browser
 
 Another option if you don't want to bother installing node & npm:
-     
+
     # Just use a simple static file server like:
     cd source/
     python -m SimpleHTTPServer 4000
@@ -84,4 +87,4 @@ The testing environment is currently hosted [on Firebase Hosting (beta)](https:/
 
 ## Credits
 
-Copyright (c) 2014 [FlipFlop Crew](https://github.com/FlipFlopWeekly)
+Copyright (c) 2016 [FlipFlop Crew](https://github.com/FlipFlopWeekly)
