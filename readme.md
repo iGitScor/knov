@@ -6,10 +6,10 @@ A real-time culture sharer using Firebase as its backend and AngularJS on the fr
 ## Installation
     
     # Install global NPM dependencies:
-    npm install -g gulp bower jshint recess
+    npm install -g gulp bower jshint recess yarn
 
     # Install project NPM dependencies:
-    npm install
+    yarn install
 
 ## Contributing
     
