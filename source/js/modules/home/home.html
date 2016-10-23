@@ -1,24 +1,23 @@
 <div class="container-fluid front-panel">
-    <p>Il y a {{nbNewWords.length}} nouveau(x) mot(s)</p>
+  <p>Il y a {{nbNewWords.length}} nouveau(x) mot(s)</p>
 </div>
 
 <div class="container-fluid front-panel">
-    <section id="front-panel-words" class="text-center">
-        <ul id="word-list" class="word-list">
-            <li knov-word ng-repeat="(id, word) in words" class="form-group pull-left category-block">
-            </li>
-        </ul>
-    </section>
+  <section id="front-panel-words" class="text-center">
+    <ul id="word-list" class="word-list">
+      <li knov-word ng-repeat="(id, word) in words" class="form-group pull-left category-block"></li>
+    </ul>
+  </section>
 
-    <div class="clear"></div>
+  <div class="clear"></div>
 </div>
 
 <section id="front-panel-footer">
-    <form id="word-form" ng-submit="addWord()">
-        <div class="form-group">
-            <input id="new-word" class="form-control pull-left three" placeholder="Un mot..." ng-model="newWord" aria-label="Un mot" autofocus>
-            <input id="new-word-definition" class="form-control pull-left nine" placeholder="... et sa définition" ng-model="newWordDefinition" aria-label="et sa définition">
-            <input id="submit" value="Propose" type="submit" class="pull-left form-control"/>
-        </div>
-    </form>
+  <form id="word-form" ng-submit="addWord()">
+    <div class="form-group">
+      <input id="new-word" class="form-control pull-left three" placeholder="Un mot..." ng-model="newWord" aria-label="Un mot" autofocus>
+      <input id="new-word-definition" class="form-control pull-left nine" placeholder="... et sa définition" ng-model="newWordDefinition" aria-label="et sa définition">
+      <input id="submit" value="Propose" type="submit" class="pull-left form-control"/>
+    </div>
+  </form>
 </section>

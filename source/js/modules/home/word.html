@@ -1,3 +1,9 @@
 <span data-hint="{{word.definition}}">
-    <a  data-word="{{word.word}}" data-definition="{{word.definition}}" class="category">{{word.word}}</a>
+  <a
+    data-word="{{word.word}}"
+    data-definition="{{word.definition}}"
+    class="category"
+    aria-description="La définition de {{ word.word }} est {{ word.definition }}">
+    {{word.word}}
+  </a>
 </span>
